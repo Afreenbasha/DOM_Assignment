@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(48, 19, 109);
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    border-radius: 5%;
+    color: whitesmoke;
+  }
+  .box:hover{
+    background-color: #82d7e8;
+    color: rgb(9, 9, 10);
+  }
+  

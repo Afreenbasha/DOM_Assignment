@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEF5FF;
+    
+  }
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+  }
+  
+  .hovered {
+    background-color: lightgreen; /* Change background color on hover */
+  }
+  

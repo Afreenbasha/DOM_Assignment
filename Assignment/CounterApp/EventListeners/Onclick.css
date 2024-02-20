@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bdd9e3;
+  }
+  
+  #clickMe{
+    padding: 10px 20px;
+  background-color: #052e59; /* Blue */
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+  
+  }
+
+  #clickMe:hover{
+    
+        background-color: #0056b3; /* Darker blue on hover */
+      
+  }
